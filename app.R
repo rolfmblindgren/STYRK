@@ -13,7 +13,11 @@ ui <- fluidPage(
   grendelshiny::grendelshiny_js(),
   shinyseo::social_meta(app_meta),
 
-  titlePanel("Yrkestilpasningskalkulator:"),
+  tags$section(
+    class = "hero",
+    div(class = "hero-mark", grendelshiny::grendel_mark()),
+    tags$h1("Yrkestilpasningskalkulator")
+  ),
 
   sidebarLayout(
     sidebarPanel(
