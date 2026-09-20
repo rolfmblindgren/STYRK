@@ -1,0 +1,23 @@
+title: "Yrkestilpasningskalkulator"
+description: >
+  Finn yrker som passer din personlighet. Kalkulatoren matcher din
+  Big Five-profil mot yrkesprofiler fra ISCO-databasen og viser
+  de best tilpassede yrkene.
+url: "https://shiny.grendel.no/STYRK"
+image: "https://shiny.grendel.no/grendel-g.png"
+image_alt: "Grendel"
+image_type: "image/png"
+site_name: "Grendel"
+locale: "nb_NO"
+
+theme_color: "#031817"
+
+schema_type: "WebApplication"
+application_category: "UtilitiesApplication"
+operating_system: "Any"
+is_accessible_for_free: true
+
+author_name: "Grendel"
+author_type: "Organization"
+publisher_name: "Grendel"
+publisher_type: "Organization"
